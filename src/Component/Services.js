@@ -3,7 +3,7 @@ import { servicesData } from "../Data/servicesData ";
 const Services = () => {
     return (
         <>
-        <div className="container mx-auto w-4/5 flex gap-1/5 flex-wrap justify-between">
+        <div className="container mx-auto w-4/5 flex gap-1/5 flex-wrap justify-between mt-10">
         {servicesData.map(service => (
             <div key={service.id} className="basis-1/5 Services_card shadow-2xl">
                 <div className='innerDiv'>

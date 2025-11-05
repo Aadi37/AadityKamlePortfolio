@@ -312,3 +312,53 @@ p.contactEmail {
  {
     line-height: 35px;
 }
+section.pageTitle h4 {
+    font-size: 55px;
+    color: #fff;
+    font-weight: 600;
+}
+section.pageTitle p {
+    color: #fff;
+    line-height: 32px;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.pageDetails {
+    background: linear-gradient(to right, rgba(238, 53, 101, 0.6), rgba(96, 195, 172, 0.6));
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.contact-card.basis-2\/6 {
+    background: linear-gradient(to right, rgba(238, 53, 101, 0.6), rgba(96, 195, 172, 0.6));
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.contact-card svg {
+    height:35px;
+    width:35px;
+    color:#fff;
+}
+
+.contact-card h3 {
+    font-size:20px;
+    font-weight:700;
+    line-height:50px;
+    color: #fff;
+}
+.contact-card p {
+    font-size:16px;
+    line-height:26px;
+    color: #fff;
+}
+.tm-slider-textarea {
+    position: fixed;
+    bottom: 5%;
+    text-align: center;
+    background-color: #fff;
+    /* transform: rotate(-90deg); */
+    padding: 15px;
+    left: 2%;
+    border-radius: 50%;
+}

@@ -1,7 +1,8 @@
 import Mission from "../Component/Mission";
 
 const About = () => {
-  return         <section><Mission title='About Us'/></section>
+  return         <section className='my-10'>
+    <Mission title='About Us'/></section>
 ;
 };
 

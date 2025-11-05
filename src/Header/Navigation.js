@@ -12,7 +12,7 @@ const Navigation = () => {
       }
     return (
         <div className='Header w-1/2 mx-auto shadow-2xl rounded-lg py-2.5 my-7
-fixed-header bg-white'>
+ bg-white'>
             <div className='px-4 flex items-center justify-between'>
                 <div className='logo'>
                 <img src={aadi}   style={{ height: '70px', width: '70px' }} alt="aadi"/>
@@ -25,8 +25,11 @@ fixed-header bg-white'>
                         <Link to="/About" className="text-black font-medium mr-3.5">
                             About
                         </Link>
-                        <Link to="/Services" className="text-black font-medium mr-2.5">
+                        {/* <Link to="/Services" className="text-black font-medium mr-2.5">
                             Services
+                        </Link> */}
+                          <Link to="/Portfolio" className="text-black font-medium mr-3.5">
+                            Portfolio
                         </Link>
                         <Link to="/Contact" className="text-black font-medium mr-3.5">
                             Contact

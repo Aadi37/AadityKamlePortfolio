@@ -1,11 +1,16 @@
 import React from "react";
 import bgcoloro from "../images/bgcoloro.png";
 import { motion } from "framer-motion";
-
+import { useNavigate } from "react-router-dom";
 const Banner = () => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/Portfolio");
+  };
   return (
-    <div className="container mx-auto w-4/5 h-screen flex items-center justify-between">
-      
+    <div className="container mx-auto w-4/5 flex items-center justify-between pb-5">
+  
       {/* LEFT SECTION (Text) */}
       <motion.div
         className="BannerText w-1/2"
@@ -30,8 +35,8 @@ const Banner = () => {
         </div>
 
         <div className="Banner_btn">
-          <button className="Bubble_btn">
-            <span className="hover_text">Hire Me</span>
+          <button className="Bubble_btn"  onClick={handleClick}>
+            <span className="hover_text">View Portfolio</span>
             <span className="bottom bubble"></span>
             <span className="bottom bubble"></span>
             <span className="bottom bubble"></span>

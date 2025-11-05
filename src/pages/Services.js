@@ -1,7 +1,7 @@
 import Services from "../Component/Services";
 
 const ServicesComponent = () => {
-  return         <section><Services/></section>
+  return         <section className="my-10"><Services/></section>
 ;
 };
 
